@@ -1,2 +1,0 @@
-# technoclasm
-Technoclasm
