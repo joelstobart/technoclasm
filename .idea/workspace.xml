@@ -3,13 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Netlify plugin">
       <change afterPath="$PROJECT_DIR$/src/images/exeter_quay_circle.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
