@@ -34,16 +34,23 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+
       </div>
+      <footer
+        style={{
+          paddingTop: `1rem`,
+          backgroundColor: 'silver'
+        }}
+      ><div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `0 0.2rem 0.1rem`,
+        }}
+      ><h4>
+        © {new Date().getFullYear()} &nbsp;
+        <a href="https://technoclasm.com">Technoclasm Limited</a></h4></div>
+      </footer>
     </>
   )
 }
