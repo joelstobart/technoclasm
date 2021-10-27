@@ -25,17 +25,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
 
-      </div>
+      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+
+      <main>
+     {children}
+      </main>
       <footer
         style={{
           paddingTop: `1rem`,
@@ -49,7 +44,7 @@ const Layout = ({ children }) => {
         }}
       ><h4>
         © {new Date().getFullYear()} &nbsp;
-        <a href="https://technoclasm.com">Technoclasm Limited</a></h4></div>
+        <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a></h4></div>
       </footer>
     </>
   )

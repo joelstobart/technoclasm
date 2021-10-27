@@ -1,16 +1,19 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import logoMark from '../images/t.svg'
+import flowers from '../images/flowers.jpg'
 import '../styles/header.css'
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#fe5a1d`,
       marginBottom: `3.45rem`,
-      padding: `3.45rem`
-    }}
-  >
+      padding: `7.7rem 0 7.7rem 0` ,
+      background: `url(${flowers})`,
+      backgroundPosition:`cover`,
+      backgroundSize: `100%`
+    }}>
     <div
       style={{
         margin: `0 auto`,
@@ -18,7 +21,15 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0}}>
+      <img
+        src={logoMark}
+        alt="Technoclasm T logo-mark"
+        height="130rem"
+        width="170rem"
+        align="left"
+        style={{paddingRight:`50px`}}
+      />
+      <h1 style={{ margin: 0, width: `600px`}}>
         <Link
           to="/"
           style={{
@@ -29,7 +40,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h2 style={{ margin: 0 , fontFamily: 'Quicksand, sans-serif', color: 'White'}}>
+      <h2 style={{ margin: 0 , fontFamily: 'Quicksand, sans-serif', color: 'White', width: `600px`}}>
         A Digital Transformation Consultancy
       </h2>
     </div>
