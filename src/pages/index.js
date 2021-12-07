@@ -45,10 +45,11 @@ const IndexPage = () => (
       }}
     >
       <h2 style={{paddingTop:`3.35rem`}}>Part of a community</h2>
-      <p style={{paddingBottom:`3.35rem`}}>
-      As part of a vibrant and positive community, it is our responsibility to make a positive difference to the place we live. We can do this by:
-      <ul><li>Providing employment opportunities</li><li>Doing work for local charities and businesses</li><li>Giving our time and money to projects that help build a stronger community</li></ul>
+      <p>
+        As part of a vibrant and positive community, it is our responsibility to make a positive difference to the place we live. We can do this by:
       </p>
+      <ul style={{paddingBottom:`3.35rem`}}><li>Providing employment opportunities</li><li>Doing work for local charities and businesses</li><li>Giving our time and money to projects that help build a stronger community</li></ul>
+
     </div>
 
 
