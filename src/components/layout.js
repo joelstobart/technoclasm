@@ -43,8 +43,8 @@ const Layout = ({ children }) => {
           padding: `0 0.2rem 0.1rem`,
         }}
       ><h4>
-        © {new Date().getFullYear()} &nbsp;
-        <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a></h4></div>
+        © {new Date().getFullYear()}&nbsp;
+        <a style={{color:`black`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a></h4></div>
       </footer>
     </>
   )

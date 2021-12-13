@@ -107,7 +107,7 @@ const IndexPage = () => (
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Exeter quay"
-      style={{ height: "500px", width: "100%" , marginBottom: "30px" }}
+      style={{ height: "500px", width: "100%" }}
       objectFit="cover"
       objectPosition="center 60%"
     />
