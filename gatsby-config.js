@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://technoclasm.com`,
   },
   plugins: [
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-netlify',
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
