@@ -2,7 +2,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logoMark from '../images/t.svg'
-import flowers from '../images/flowers.jpg'
+import flowers from '../images/flowers.webp'
 import '../styles/header.css'
 
 const Header = ({ siteTitle }) => (
@@ -12,7 +12,8 @@ const Header = ({ siteTitle }) => (
       padding: `7.7rem 0 7.7rem 0` ,
       background: `url(${flowers})`,
       backgroundPosition:`cover`,
-      backgroundSize: `100%`
+      backgroundSize: `100%`,
+      filter: `grayscale(0), sepia(0), saturate(1), hue-rotate(0deg), invert(0), opacity(1), brightness(1), contrast(1), blur(0px)`
     }}>
     <div
       style={{
