@@ -571,3 +571,16 @@ pre tt:after {
     font-size: 100%;
   }
 }
+footer nav ul > li {list-style: none}
+
+footer  a {
+  font-family: 'Quicksand', Helvetica Neue, sans-serif;
+  text-decoration: none;
+  color:white
+}
+
+
+footer address {
+  font-family: 'Quicksand', Helvetica Neue, sans-serif;
+  font-style: normal;
+}

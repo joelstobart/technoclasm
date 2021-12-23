@@ -13,8 +13,7 @@ const Header = ({ siteTitle }) => (
       background: `url(${flowers})`,
       backgroundPosition:`cover`,
       backgroundSize: `100%`,
-      filter: `grayscale(0), sepia(0), saturate(1), hue-rotate(0deg), invert(0), opacity(1), brightness(1), contrast(1), blur(0px)`
-    }}>
+      }}>
     <div
       style={{
         margin: `0 auto`,
@@ -42,7 +41,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
       <h2 style={{ margin: 0 , fontFamily: 'Quicksand, sans-serif', color: 'White', width: `600px`}}>
-        A Digital Transformation Consultancy
+        The Digital Transformation Consultancy
       </h2>
     </div>
   </header>

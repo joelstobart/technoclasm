@@ -9,7 +9,7 @@ const IndexPage = () => (
 
   <Layout>
 
-    <Seo title="Home" />
+    <Seo title="Discover Technoclasm" />
 
     <div
       style={{

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Technoclasm`,
-    description: `Digital Transformation for Enterprises`,
+    description: `The Digital Transformation Consultancy`,
     author: `@joelstobart`,
     siteUrl: `https://technoclasm.com`,
   },
