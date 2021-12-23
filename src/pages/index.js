@@ -28,7 +28,7 @@ const IndexPage = () => (
 
 
     <StaticImage
-      src="../images/flower_yellow.jpg"
+      src="../images/flower_yellow.webp"
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Exeter quay"
@@ -54,7 +54,7 @@ const IndexPage = () => (
 
 
     <StaticImage
-      src="../images/flowers.jpg"
+      src="../images/flowers.webp"
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Exeter quay"
@@ -78,7 +78,7 @@ const IndexPage = () => (
     </div>
 
     <StaticImage
-      src="../images/flower_yellow.jpg"
+      src="../images/flower_yellow.webp"
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Exeter quay"
@@ -103,7 +103,7 @@ const IndexPage = () => (
     </div>
 
     <StaticImage
-      src="../images/flowers.jpg"
+      src="../images/flowers.webp"
       quality={95}
       formats={["auto", "webp", "avif"]}
       alt="Exeter quay"
