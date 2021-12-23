@@ -30,7 +30,7 @@ const IndexPage = () => (
     <StaticImage
       src="../images/flower_yellow.webp"
       quality={95}
-      formats={["auto", "webp", "avif"]}
+      formats={["webp", "auto", "avif"]}
       alt="Exeter quay"
       style={{ height: "500px", width: "100%" , marginBottom: "30px" }}
       objectFit="cover"
@@ -56,7 +56,7 @@ const IndexPage = () => (
     <StaticImage
       src="../images/flowers.webp"
       quality={95}
-      formats={["auto", "webp", "avif"]}
+      formats={["webp", "auto", "avif"]}
       alt="Exeter quay"
       style={{ height: "500px", width: "100%" , marginBottom: "30px" }}
       objectFit="cover"
@@ -80,8 +80,8 @@ const IndexPage = () => (
     <StaticImage
       src="../images/flower_yellow.webp"
       quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="Exeter quay"
+      formats={["webp", "auto", "avif"]}
+      alt="Yellow Flowers"
       style={{ height: "500px", width: "100%" , marginBottom: "30px" }}
       objectFit="cover"
       objectPosition="center 60%"
@@ -105,8 +105,8 @@ const IndexPage = () => (
     <StaticImage
       src="../images/flowers.webp"
       quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="Exeter quay"
+      formats={["webp", "auto", "avif"]}
+      alt="Flowers"
       style={{ height: "500px", width: "100%" }}
       objectFit="cover"
       objectPosition="center 60%"
