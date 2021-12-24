@@ -14,17 +14,11 @@ const Header = ({ siteTitle }) => (
       backgroundPosition:`cover`,
       backgroundSize: `100%`,
       }}>
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
+    <div>
       <img
         src={logoMark}
         alt="Technoclasm T logo-mark"
-        height="130rem"
+        height="120rem"
         width="170rem"
         align="left"
         style={{paddingRight:`50px`}}
@@ -40,7 +34,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h2 style={{ margin: 0 , fontFamily: 'Quicksand, sans-serif', color: 'White', width: `600px`}}>
+      <h2>
         The Digital Transformation Consultancy
       </h2>
     </div>

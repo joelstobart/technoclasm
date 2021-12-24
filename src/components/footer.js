@@ -18,7 +18,7 @@ const Footer = ({  }) => (
         display: `flex`
       }}>
 
-      <div style={{width:`40%`}}>
+      <div style={{width:`45%`}}>
 
     <nav>
       <ul>
@@ -34,8 +34,8 @@ const Footer = ({  }) => (
 
       </div>
 
-      <div style={{width:`40%`}}>
-      <div class="office">
+      <div style={{width:`45%`}}>
+      <div className="office">
       <h2>Exeter</h2>
       <address>
         The Gallery, Kings Wharf, The Quay, Exeter, EX2 4AN
