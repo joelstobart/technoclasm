@@ -2,19 +2,34 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logoMark from '../images/t.svg'
-import flowers from '../images/flowers.webp'
 import '../styles/header.css'
+import { Helmet } from "react-helmet";
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      marginBottom: `3.45rem`,
-      padding: `7.7rem 0 7.7rem 0` ,
-      background: `url(${flowers})`,
-      backgroundPosition:`cover`,
-      backgroundSize: `100%`,
-      }}>
-    <div>
+    <header style={{
+      position: `sticky`,
+      background: `black`,
+      padding: `1.5em 1.0875rem 2em`,
+      top: 0,
+      zIndex: 999,
+    }}>
+      <div style={{
+        margin: `0 auto`,
+        maxWidth: 960}}>
+      <Helmet>
+        <script>
+          {
+            `const el = document.querySelector("header")
+              const observer = new IntersectionObserver( 
+                ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
+                { threshold: [1] }
+              );
+              
+              observer.observe(el);
+          `}
+        </script>
+      </Helmet>
+
       <img
         src={logoMark}
         alt="Technoclasm T logo-mark"
@@ -36,9 +51,9 @@ const Header = ({ siteTitle }) => (
       </h1>
       <h2>
         The Digital Transformation Consultancy
-      </h2>
-    </div>
-  </header>
+      </h2></div>
+    </header>
+
 )
 
 Header.propTypes = {

@@ -1,4 +1,3 @@
-import PropTypes from "prop-types";
 import * as React from "react";
 
 const Footer = ({  }) => (
@@ -39,7 +38,6 @@ const Footer = ({  }) => (
       <h2>Exeter</h2>
       <address>
         The Gallery, Kings Wharf, The Quay, Exeter, EX2 4AN
-
       </address>
         <p className="email"><a style={{color:`white`, textDecoration:`none`}} href="mailto:we.are@technoclasm.com">we.are@technoclasm.com</a></p>
       </div>
@@ -50,12 +48,13 @@ const Footer = ({  }) => (
         style={{
           margin: `0 auto`,
           maxWidth: 960,
-          padding: `0 0.2rem 0.1rem`
+          padding: `0 0.2rem 0.1rem`,
+          textAlign: `center`
         }}>
-  <h4>
-    © {new Date().getFullYear()}&nbsp;
-    <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a></h4>
-
+      <h4 className="copyright">
+          © {new Date().getFullYear()}&nbsp;
+          <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a>
+      </h4>
     </div>
   </footer>
 )
