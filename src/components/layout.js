@@ -26,15 +26,15 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div style={{height:`7rem`, background:`black`}}></div>
+      <div style={{ height: `7rem`, background: `black` }}/>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div style={{height:`7rem`, background:`black`}}></div>
+      <div style={{ height: `7rem`, background: `black` }}/>
 
       <main>
      {children}
       </main>
 
-      <Footer></Footer>
+      <Footer/>
 
     </>
   )

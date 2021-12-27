@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import logoMark from '../images/t.svg'
 import '../styles/header.css'
-import { Helmet } from "react-helmet";
 
 const Header = ({ siteTitle }) => (
     <header style={{
@@ -16,19 +15,6 @@ const Header = ({ siteTitle }) => (
       <div style={{
         margin: `0 auto`,
         maxWidth: 960}}>
-      <Helmet>
-        <script>
-          {
-            `const el = document.querySelector("header")
-              const observer = new IntersectionObserver( 
-                ([e]) => e.target.classList.toggle("is-pinned", e.intersectionRatio < 1),
-                { threshold: [1] }
-              );
-              
-              observer.observe(el);
-          `}
-        </script>
-      </Helmet>
 
       <img
         src={logoMark}
