@@ -94,6 +94,7 @@ h1 {
     line-height: 1.1;
 }
 
+
 mark {
     background-color: #ff0;
     color: #000;
@@ -671,7 +672,7 @@ header h2 {
 header > div {
     margin: 0 auto;
     max-width: 960px;
-    padding: 0 1.0875rem 1.45rem 0;
+    padding: 0 1.0875rem 0 0;
 }
 
 @media only screen and (max-width: 550px) {
@@ -683,5 +684,17 @@ header > div {
 
     header h2 {
         min-width: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 550px) {
+
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    h2 {
+        font-size: 1.6rem;
     }
 }
