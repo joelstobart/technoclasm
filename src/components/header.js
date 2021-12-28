@@ -10,8 +10,8 @@ const Header = ({ siteTitle }) => (
         <img
           src={logoMark}
           alt="Technoclasm T logo-mark"
-          height="120rem"
-          width="120rem"
+          height="100rem"
+          width="100rem"
           align="left"
           style={{paddingRight:`20px`}}
         />
