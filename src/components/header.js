@@ -20,9 +20,9 @@ const Header = ({ siteTitle }) => (
         src={logoMark}
         alt="Technoclasm T logo-mark"
         height="120rem"
-        width="170rem"
+        width="120rem"
         align="left"
-        style={{paddingRight:`50px`}}
+        style={{paddingRight:`20px`}}
       />
       <h1 style={{ margin: 0, width: `600px`}}>
         <Link
