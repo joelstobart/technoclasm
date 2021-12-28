@@ -90,7 +90,7 @@ h1 {
     font-family: 'Quicksand', Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 2.25rem;
+    font-size: 2.0rem;
     line-height: 1.1;
 }
 
@@ -292,7 +292,7 @@ h2 {
     font-family: 'Quicksand', Helvetica Neue, sans-serif;
     font-weight: bold;
     text-rendering: optimizeLegibility;
-    font-size: 1.62671rem;
+    font-size: 1.3rem;
     line-height: 1.1;
 }
 
@@ -678,7 +678,7 @@ header > div {
 
     header > div {
         max-width: 480px;
-        padding: 0 1.0875rem 0 0;
+        padding: 0 1.0875rem 1rem 0;
     }
 
     header h2 {
