@@ -3,6 +3,10 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import architecture from "../images/architecture.svg";
+import development from "../images/development.svg";
+import establishment from "../images/establishment.svg";
+import reproduction from "../images/reproduction.svg";
 
 
 const IndexPage = () => (
@@ -24,6 +28,55 @@ const IndexPage = () => (
         Our team have decades of experience in delivering outstanding web application.
         Our clients are from the Private Sector, Public Sector and the Third Sector.
       </p>
+      <div style={{ display: `flex`}}>
+
+        <div style={{width:`25%`, textAlign:`center`}}>
+        <img
+          src={establishment}
+          alt="Establishment"
+          height="auto"
+          width="80%"
+          style={{
+            textAlign: `center`}}
+        />
+          <h4>
+            Establishment
+          </h4>
+        </div>
+        <div style={{width:`25%`, textAlign:`center`}}>
+        <img
+          src={architecture}
+          alt="Architecture"
+          height="auto"
+          width="80%"
+        />
+          <h4>
+          Architecture
+        </h4>
+        </div>
+        <div style={{width:`25%`, textAlign:`center`}}>
+        <img
+          src={development}
+          alt="Development"
+          height="auto"
+          width="80%"
+        />
+          <h4>
+          Development
+        </h4>
+        </div>
+        <div style={{width:`25%`, textAlign:`center`}}>
+        <img
+          src={reproduction}
+          alt="Reproduction"
+          height="auto"
+          width="80%"
+        />
+          <h4>
+          Reproduction
+        </h4>
+        </div>
+      </div>
     </div>
 
 
