@@ -23,7 +23,7 @@ const IndexPage = () => (
       }}>
       <h2 style={{paddingTop:`3.35rem`}}>Our work</h2>
       <p style={{paddingBottom:`3.35rem`}}>Technoclasm consult, design, facilitate and build outstanding digital solutions.
-        Commonly our role is to make digital transformations happen.
+        Our role is to make digital transformations happen.
         Our team build user centric web applications and online cloud software.
         Building upon decades of experience in delivering outstanding web application.
         Our clients are typically large organisations from the Private, Public and the Third Sectors.
