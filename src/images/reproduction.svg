@@ -6,7 +6,7 @@
 	.st0{fill:#FFA600;}
 </style>
 <path class="st0" d="M150,137c0,0-5-15,6-26s30-10,30-10l17.7,10l18.3-10c0,0,23-1,29,10s11,29,5,34s-13,11-13,11l15.7,12
-	c0,0,2.3,25.8-4.7,31.9S239,210,228,210s-24.3-10.1-24.3-10.1S198,209,179,210s-20-6.1-23-10.1s-9-30.1-3-37c6-6.9,10-11.9,10-11.9
+	c0,0,2.3,25.8-4.7,31.9S239,210,228,210s-24.3-10.1-24.3-10.1S198,209,179,210s-20-6.1-23-10.1s-9-30.1-3-37s10-11.9,10-11.9
 	L150,137z"/>
 <g id="reproduction_line">
 	<g id="reproduction_circle-2">
@@ -14,12 +14,11 @@
 			S-5.3,140.7,67.7,67.7C102.7,32.5,150.4,12.8,200,12.9 M200,0C89.5,0,0,89.5,0,199.9s89.5,199.9,200,199.9s200-89.5,200-199.9
 			S310.5,0,200,0z"/>
 	</g>
-	
-		<image style="overflow:visible;enable-background:new    ;" width="219" height="219" id="reproduction_icon_Image-2" xlink:href="94078766ADFC61B0.png"  transform="matrix(1 0 0 1 94.22 94.31)">
-	</image>
 	<g id="reproduction_line-2">
 		<rect x="38.7" y="309.5" width="322.6" height="4.3"/>
-		<polygon points="361.3,309.5 38.7,309.5 38.7,313.9 361.3,313.9 361.3,309.5 		"/>
+		<polygon points="361.3,309.5 38.7,309.5 38.7,313.9 361.3,313.9 		"/>
 	</g>
 </g>
+<image style="overflow:visible;enable-background:new    ;" width="219" height="219" id="reproduction_icon_Image-2_00000174583152739280493620000013843101084754141869_" xlink:href="94078766ADFC61B0.png"  transform="matrix(1 0 0 1 91 90.5)">
+</image>
 </svg>
