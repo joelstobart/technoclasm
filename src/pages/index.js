@@ -20,13 +20,13 @@ const IndexPage = () => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `0 1.0875rem 1.45rem`,
-      }}
-    >
+      }}>
       <h2 style={{paddingTop:`3.35rem`}}>Our work</h2>
-      <p style={{paddingBottom:`3.35rem`}}>Technoclasm consult, design, facilitate and build outstanding digital solutions as part of digital transformations.
-        We build user centric web applications and online cloud software.
-        Our team have decades of experience in delivering outstanding web application.
-        Our clients are from the Private Sector, Public Sector and the Third Sector.
+      <p style={{paddingBottom:`3.35rem`}}>Technoclasm consult, design, facilitate and build outstanding digital solutions.
+        Commonly our role is to make digital transformations happen.
+        Our team build user centric web applications and online cloud software.
+        Building upon decades of experience in delivering outstanding web application.
+        Our clients are typically large organisations from the Private, Public and the Third Sectors.
       </p>
       <div style={{ display: `flex`}}>
 
