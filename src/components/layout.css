@@ -743,7 +743,8 @@ div#icons > div  {
     }
 
     div#icons > div > div:last-child {
-        width: 30%;
+        text-align:left;
+        width: 60%;
         flex-direction: column;
     }
 
