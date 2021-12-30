@@ -698,3 +698,58 @@ header > div {
         font-size: 1.6rem;
     }
 }
+
+div#icons {
+    display: flex;
+    flex-direction: row;
+}
+
+div#icons > div  {
+    text-align:center;
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media only screen and (min-width: 550px) {
+    div#icons {
+        flex-direction: row;
+    }
+
+    div#icons > div {
+        width:25%;
+        flex-direction: column;
+    }
+
+    div#icons > div > div {
+        width: 100%;
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 550px) {
+    div#icons {
+        flex-direction: column;
+    }
+
+    div#icons > div {
+        width: 100%;
+    }
+
+    div#icons > div > div:first-child {
+        width: 30%;
+        flex-direction: column;
+    }
+
+    div#icons > div > div:last-child {
+        width: 30%;
+        flex-direction: column;
+    }
+
+    div#icons > div > div > img {
+        width:50%
+    }
+
+
+}

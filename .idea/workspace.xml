@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Bit more sticky and make the background-black">
+    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Fix the power of a sentence">
+      <change afterPath="$PROJECT_DIR$/src/components/planticon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +95,8 @@
       <workItem from="1638307062411" duration="7653000" />
       <workItem from="1640205269198" duration="12879000" />
       <workItem from="1640611767528" duration="105000" />
-      <workItem from="1640640473467" duration="13019000" />
+      <workItem from="1640640473467" duration="13052000" />
+      <workItem from="1640817872160" duration="3424000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -220,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640724850315</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fix the power of a sentence">
+      <created>1640817843254</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1640817843254</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +266,7 @@
     <MESSAGE value="index js" />
     <MESSAGE value="A few thingumys" />
     <MESSAGE value="Bit more sticky and make the background-black" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bit more sticky and make the background-black" />
+    <MESSAGE value="Fix the power of a sentence" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix the power of a sentence" />
   </component>
 </project>

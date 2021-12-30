@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import PlantIcon from "../components/planticon"
 import architecture from "../images/architecture.svg";
 import development from "../images/development.svg";
 import establishment from "../images/establishment.svg";
@@ -28,54 +29,11 @@ const IndexPage = () => (
         Building upon decades of experience in delivering outstanding web application.
         Our clients are typically large organisations from the Private, Public and the Third Sectors.
       </p>
-      <div style={{ display: `flex`}}>
-
-        <div style={{width:`25%`, textAlign:`center`}}>
-        <img
-          src={establishment}
-          alt="Establishment"
-          height="auto"
-          width="80%"
-          style={{
-            textAlign: `center`}}
-        />
-          <h4>
-            Establishment
-          </h4>
-        </div>
-        <div style={{width:`25%`, textAlign:`center`}}>
-        <img
-          src={architecture}
-          alt="Architecture"
-          height="auto"
-          width="80%"
-        />
-          <h4>
-          Architecture
-        </h4>
-        </div>
-        <div style={{width:`25%`, textAlign:`center`}}>
-        <img
-          src={development}
-          alt="Development"
-          height="auto"
-          width="80%"
-        />
-          <h4>
-          Development
-        </h4>
-        </div>
-        <div style={{width:`25%`, textAlign:`center`}}>
-        <img
-          src={reproduction}
-          alt="Reproduction"
-          height="auto"
-          width="80%"
-        />
-          <h4>
-          Reproduction
-        </h4>
-        </div>
+      <div id="icons">
+        <PlantIcon altText="Establishment" title="Establishment" source={establishment}/>
+        <PlantIcon altText="Architecture" title="Architecture" source={architecture}/>
+        <PlantIcon altText="Development" title="Development" source={development}/>
+        <PlantIcon altText="Reproduction" title="Reproduction" source={reproduction}/>
       </div>
     </div>
 
