@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Fix the power of a sentence">
-      <change afterPath="$PROJECT_DIR$/src/images/385B786F6D66D1BB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/development copy.svg" afterDir="false" />
+    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="update the development.svg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/development.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/development.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/planticon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/planticon.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +94,7 @@
       <workItem from="1640205269198" duration="12879000" />
       <workItem from="1640611767528" duration="105000" />
       <workItem from="1640640473467" duration="13052000" />
-      <workItem from="1640817872160" duration="5131000" />
+      <workItem from="1640817872160" duration="5421000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -232,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640817843254</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update the development.svg">
+      <created>1641073137134</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1641073137134</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +272,7 @@
     <MESSAGE value="A few thingumys" />
     <MESSAGE value="Bit more sticky and make the background-black" />
     <MESSAGE value="Fix the power of a sentence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix the power of a sentence" />
+    <MESSAGE value="update the development.svg" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the development.svg" />
   </component>
 </project>

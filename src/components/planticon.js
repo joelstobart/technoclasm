@@ -13,9 +13,9 @@ const PlantIcon = ({ source, altText, title }) => (
         />
       </div>
       <div>
-        <h4>
+        <h3>
           {title}
-        </h4>
+        </h3>
       </div>
     </div>
 )
