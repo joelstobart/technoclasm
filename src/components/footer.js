@@ -47,10 +47,10 @@ const Footer = ({}) => (
         padding: `0 0.2rem 0.1rem`,
         textAlign: `center`
       }}>
-      <h4 className="copyright">
+      <span className="copyright">
         © {new Date().getFullYear()}&nbsp;
         <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a>
-      </h4>
+      </span>
     </div>
 
   </footer>

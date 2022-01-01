@@ -553,6 +553,12 @@ footer nav ul > li {
     list-style: none
 }
 
+footer .copyright {
+    font-family: 'Quicksand', Helvetica Neue, sans-serif;
+    text-decoration: none;
+    color: white
+}
+
 footer a {
     font-family: 'Quicksand', Helvetica Neue, sans-serif;
     text-decoration: none;
