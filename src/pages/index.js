@@ -8,13 +8,26 @@ import architecture from "../images/architecture.svg";
 import development from "../images/development.svg";
 import establishment from "../images/establishment.svg";
 import reproduction from "../images/reproduction.svg";
+import { Helmet } from "react-helmet";
 
 
 const IndexPage = () => (
 
   <Layout>
-
     <Seo title="Discover Technoclasm" />
+
+    <Helmet>
+      <script type="application/ld+json">
+        {`
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "url": "https://www.technoclasm.com",
+          "logo": "https://www.technoclasm.com/images/t.svg"
+        }
+        `}
+      </script>
+    </Helmet>
 
     <div
       style={{

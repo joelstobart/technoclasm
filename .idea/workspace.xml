@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="tweak to change semantic content">
+    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="tweak to build process">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/using-typescript.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/using-dsg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1640205269198" duration="12879000" />
       <workItem from="1640611767528" duration="105000" />
       <workItem from="1640640473467" duration="13052000" />
-      <workItem from="1640817872160" duration="6263000" />
+      <workItem from="1640817872160" duration="7541000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -252,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641073740516</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="tweak to build process">
+      <created>1641074287925</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1641074287925</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +296,7 @@
     <MESSAGE value="Fix the power of a sentence" />
     <MESSAGE value="update the development.svg" />
     <MESSAGE value="tweak to change semantic content" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweak to change semantic content" />
+    <MESSAGE value="tweak to build process" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweak to build process" />
   </component>
 </project>
