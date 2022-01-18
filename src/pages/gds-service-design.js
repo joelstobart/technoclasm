@@ -13,8 +13,8 @@ import { Helmet } from "react-helmet";
 
 const IndexPage = () => (
 
-  <Layout>
-    <Seo title="Discover Technoclasm" />
+  <Layout pageTitle="GDS Service Design">
+    <Seo title="GDS Service Design" />
 
     <Helmet>
       <script type="application/ld+json">
@@ -95,10 +95,10 @@ const IndexPage = () => (
         padding: `0 1.0875rem 1.45rem`,
       }}
     >
-        <h2 style={{paddingTop:`3.35rem`}}>
-          Sustainability
-        </h2>
-        <p style={{paddingBottom:`3.35rem`}}>Our aim is to build a sustainable, and flourishing company in the heart of Exeter. We regard both our happiness and to the happiness of others.</p>
+      <h2 style={{paddingTop:`3.35rem`}}>
+        Sustainability
+      </h2>
+      <p style={{paddingBottom:`3.35rem`}}>Our aim is to build a sustainable, and flourishing company in the heart of Exeter. We regard both our happiness and to the happiness of others.</p>
     </div>
 
     <StaticImage
@@ -118,12 +118,12 @@ const IndexPage = () => (
         padding: `0 1.0875rem 1.45rem`,
       }}
     >
-    <h2 style={{paddingTop:`3.35rem`}}>
-      Fair-trade &amp; Living Wage
-    </h2>
-    <p style={{paddingBottom:`3.35rem`}}>
-    We proudly pay our staff, and our   contractors, more than the living wage. Likewise for us to live up-to our sustainability and community goals it is necessary for us to charge the professional rate for our services. We are a living wage employer, and promise to pay the living wage to anyone who works, contracts or helps us.
-    </p>
+      <h2 style={{paddingTop:`3.35rem`}}>
+        Fair-trade &amp; Living Wage
+      </h2>
+      <p style={{paddingBottom:`3.35rem`}}>
+        We proudly pay our staff, and our   contractors, more than the living wage. Likewise for us to live up-to our sustainability and community goals it is necessary for us to charge the professional rate for our services. We are a living wage employer, and promise to pay the living wage to anyone who works, contracts or helps us.
+      </p>
     </div>
 
     <StaticImage

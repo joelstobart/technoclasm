@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import logoMark from '../images/t.svg'
 import '../styles/header.css'
 
-const Header = ({ siteTitle }) => (
+const Header = ({siteTitle, pageTitle}) => (
     <header>
       <div>
         <img
@@ -21,13 +21,12 @@ const Header = ({ siteTitle }) => (
             style={{
               color: `white`,
               textDecoration: `none`,
-            }}
-          >
+            }}>
             {siteTitle}
           </Link>
         </h1>
         <h2>
-          The Digital Transformation Consultancy
+          {pageTitle || "The Digital Transformation Consultancy"}
         </h2>
       </div>
     </header>

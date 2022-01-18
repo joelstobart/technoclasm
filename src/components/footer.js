@@ -1,6 +1,8 @@
 import * as React from "react";
 
-const Footer = ({}) => (
+import { Link } from "gatsby"
+
+const Footer = () => (
   <footer
     style={{
       paddingTop: `1rem`,
@@ -20,8 +22,8 @@ const Footer = ({}) => (
 
         <nav>
           <ul>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Work</a></li>
+            <li><Link to="/digital-transformation">Digital Transformation</Link></li>
+
           </ul>
         </nav>
 
@@ -49,7 +51,7 @@ const Footer = ({}) => (
       }}>
       <span className="copyright">
         © {new Date().getFullYear()}&nbsp;
-        <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a>
+        <a style={{color:`white`, textDecoration:`none`}} href="https://technoclasm.com">Technoclasm Limited</a> - <Link className="footer" to="/modern-slavery">Modern Slavery Policy</Link>
       </span>
     </div>
 

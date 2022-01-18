@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="tweak to add google rich snippets">
+    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/digital-transformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/gds-service-design.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/modern-slavery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/service-design.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -71,6 +79,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images" />
       <recent name="$PROJECT_DIR$/src" />
@@ -94,7 +105,8 @@
       <workItem from="1640205269198" duration="12879000" />
       <workItem from="1640611767528" duration="105000" />
       <workItem from="1640640473467" duration="13052000" />
-      <workItem from="1640817872160" duration="8398000" />
+      <workItem from="1640817872160" duration="14840000" />
+      <workItem from="1642164779211" duration="2389000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -264,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641157506725</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="tweak to correct twitter handle">
+      <created>1641158436898</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1641158436898</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +323,7 @@
     <MESSAGE value="tweak to change semantic content" />
     <MESSAGE value="tweak to build process" />
     <MESSAGE value="tweak to add google rich snippets" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweak to add google rich snippets" />
+    <MESSAGE value="tweak to correct twitter handle" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweak to correct twitter handle" />
   </component>
 </project>
