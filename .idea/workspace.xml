@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Update the package lock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1640640473467" duration="13052000" />
       <workItem from="1640817872160" duration="14840000" />
       <workItem from="1642164779211" duration="2552000" />
-      <workItem from="1642628847607" duration="765000" />
+      <workItem from="1642628847607" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -285,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642629112824</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Update the package lock">
+      <created>1642629791461</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1642629791461</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
