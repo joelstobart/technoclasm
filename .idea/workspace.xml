@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Update the package versions">
+    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment=".7.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -104,7 +104,9 @@
       <workItem from="1642628847607" duration="5488000" />
       <workItem from="1643840622822" duration="474000" />
       <workItem from="1643918891713" duration="631000" />
-      <workItem from="1643922023968" duration="419000" />
+      <workItem from="1643922023968" duration="1976000" />
+      <workItem from="1644871596148" duration="834000" />
+      <workItem from="1648244131282" duration="204000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -316,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643838028790</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary=".7.">
+      <created>1644617000692</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1644617000692</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,6 +368,7 @@
     <MESSAGE value="tweak to correct twitter handle" />
     <MESSAGE value="Update the package lock" />
     <MESSAGE value="Update the package versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the package versions" />
+    <MESSAGE value=".7." />
+    <option name="LAST_COMMIT_MESSAGE" value=".7." />
   </component>
 </project>
