@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Update the package versions">
-      <change afterPath="$PROJECT_DIR$/.node-version" afterDir="false" />
+    <list default="true" id="298864a5-58cf-46e1-99d8-6cdfdc8bdc9f" name="Changes" comment="Add node version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1648244131282" duration="1197000" />
       <workItem from="1648414411155" duration="56000" />
       <workItem from="1649016972856" duration="86000" />
-      <workItem from="1669320735445" duration="5641000" />
+      <workItem from="1669320735445" duration="5815000" />
     </task>
     <task id="LOCAL-00001" summary="Early commit">
       <created>1634936601118</created>
@@ -351,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669499962352</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Add node version">
+      <created>1669500310911</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669500310911</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +402,7 @@
     <MESSAGE value="Update the package lock" />
     <MESSAGE value=".7." />
     <MESSAGE value="Update the package versions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update the package versions" />
+    <MESSAGE value="Add node version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add node version" />
   </component>
 </project>
