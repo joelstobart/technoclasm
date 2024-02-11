@@ -1,2 +1,1 @@
-exports.createPages = async ({  }) => {
-}
+exports.createPages = async ({}) => {}

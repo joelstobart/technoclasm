@@ -26,16 +26,16 @@ const Layout = ({ children, pageTitle }) => {
 
   return (
     <>
-      <div style={{ height: `7rem`, background: `black` }}/>
-      <Header pageTitle={pageTitle} siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div style={{ height: `7rem`, background: `black` }}/>
+      <div style={{ height: `7rem`, background: `black` }} />
+      <Header
+        pageTitle={pageTitle}
+        siteTitle={data.site.siteMetadata?.title || `Title`}
+      />
+      <div style={{ height: `7rem`, background: `black` }} />
 
-      <main>
-     {children}
-      </main>
+      <main>{children}</main>
 
-      <Footer/>
-
+      <Footer />
     </>
   )
 }
