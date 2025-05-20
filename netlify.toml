@@ -1,2 +1,2 @@
 [context.production]
-environment = { AWS_LAMBDA_JS_RUNTIME = 'nodejs18.x', NODE_VERSION = '18'}
+environment = { AWS_LAMBDA_JS_RUNTIME = 'nodejs22.x', NODE_VERSION = '22'}
